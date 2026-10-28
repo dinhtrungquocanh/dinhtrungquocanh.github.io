@@ -3232,8 +3232,8 @@ input, select, textarea {
 		.spotlight .slider {
 			display: flex;
 			overflow-x: auto; 
-			width: 95%;       /* Takes full width on mobile */
-    		max-width: 19em;   /* Caps it at 19em on larger screens */
+			width: 105%;       /* Takes full width on mobile */
+    		max-width: 19rem;   /* Caps it at 19em on larger screens */
 			scroll-snap-type: x mandatory;
 			scroll-behavior: smooth;
 			margin-left: 1.5em;
@@ -3245,10 +3245,10 @@ input, select, textarea {
 		}
 
 			.spotlight .slider img {
-				display: block;
+				display: flex;
 				border-radius: 0%;
-				width: 95%;
-				max-width: 19em;
+				width: 105%;
+				max-width: 19rem;
 				flex-shrink: 0;
 				animation: slide 16s infinite; 
 			}
@@ -3264,10 +3264,8 @@ input, select, textarea {
     		margin-left: 1.5em;
 		}
 			.spotlight .slider-nav a {
-				width: 100%;
-				max-width: 0.8rem;
-				height: 100%;
-				max-height: 0.8rem;
+				width: 0.8rem;
+				height: 0.8rem;
 				border-radius: 50%;
 				background-color: rgb(255,255,255); 
 				opacity: 0.35;
